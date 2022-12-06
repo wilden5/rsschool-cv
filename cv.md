@@ -1,11 +1,11 @@
 ## **Denis Ivanchenko**
 ## Junior Frontend Developer
----
+
 ## Contact Information: 
 * **super.wilden5@gmail.com**
 * **[Telegram](https://t.me/ShaqDaGod)**
 * **[LinkedIn](https://www.linkedin.com/in/denis-ivanchenko/)**
----
+
 ## About me:
 > I am currently working as a QA Automation Engineer. My goal is to develop technically and become a front-end developer.
 
@@ -18,7 +18,7 @@
 **Hobbies**:
 * video-games
 * eSports
----
+
 ## Skills:
 **Tools & Technologies:**
 * Java, JUnit, TestNG, Selenium WebDriver, Selenium Grid, Allure, SauceLabs, Git, Github, Salesforce, Bamboo, Jira, Zephyr, Confluence
@@ -28,7 +28,7 @@
 
 **Types of testing:**
 * Functional, Regression, Frontend, API
----
+
 ## Code example:
 >**Codewars KATA** \
 *Your task is to make function  that receive a list of integers as input, and return the lowest number in that list, respectively.*
@@ -43,7 +43,7 @@ var min = function(list) {
     return min;
 }
 ```
----
+
 ## Work experience:
 * **QA Automation Engineer**\
 *Nov 2021 - Present* 
@@ -51,7 +51,7 @@ var min = function(list) {
 *Aug 2020 - Feb 2022* 
 * **Search Engine Evaluator**\
 *Jun 2019 - Oct 2020* 
----
+
 ## Education:
 * **Higher**:
     * Brest State A.S. Pushkin University - Faculty of Law
@@ -60,6 +60,6 @@ var min = function(list) {
     * ISsoft Solutions - Manual Testing 
     * ISsoft Solutions - Java for QA Automation
     * ISsoft Solutions - Selenium WebDriver (Java)
----
+
 ## Languages:
 * English - **B2**   
