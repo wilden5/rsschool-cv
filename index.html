@@ -17,9 +17,9 @@
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <ul class="navigation-list">
+                <ul class="menu">
                     <li class="navigation-item">
-                        <a href="#contacts" class="navigation-link">Contact Information</a>
+                        <a href="#contacts" class="navigation-link">Contacts</a>
                     </li>
                     <li class="navigation-item">
                         <a href="#summary" class="navigation-link">About Me</a>
@@ -47,17 +47,23 @@
         </div>
     </header>
     <main class="main">
-        <div class="container">
-            <section class="section" id="profile">
-                <h1 class="section-title">Denis Ivanchenko</h1>
+        <div class="container main-container">
+            <section class="abc" id="profile">
+                <img src="./assets/img/denis.jpg" width="230" height="230" class="rounded-corners" alt="avatar">
+                <!-- <div class="emp-data"> -->
+                <h1 class="applicant-name">Denis Ivanchenko</h1>
+                <h2 class="expected-position" title="Но это не точно">Future Front-End Developer</h2>
+                <!-- </div> -->
             </section>
             <section class="section" id="contacts">
+                <!-- <hr class="new5"> -->
                 <h2 class="section-title">Contacts</h2>
                 <ul class="section-list">
                     <li class="contacts-item">Location:
                         <a href="https://goo.gl/maps/fMxpk6XgpSZ2tHVJ8" title="location">Brest, Belarus</a>
                     </li>
                     <li class="contacts-item"> Email:
+                        <!-- fix LINK here! -->
                         <a href="super.wilden5@gmail.com" title="email">super.wilden5@gmail.com</a>
                     </li>
                     <li class="contacts-item">LinkedIn:
@@ -75,6 +81,7 @@
                 </ul>
             </section>
             <section class="section" id="summary">
+                <!-- <hr class="new5"> -->
                 <h2 class="section-title">About Me</h2>
                 <p class="fluent-description">I am currently working as a QA Automation Engineer. My goal is to
                     develop technically and become
@@ -99,21 +106,96 @@
             </section>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
+                <ul class="section-list-skills">
+                    <li class="section-item">Tools & Technologies:
+                        <span>
+                            Java, JUnit, TestNG, Selenium WebDriver, Allure, SauceLabs, Git, Github, Salesforce, Bamboo,
+                            Jira, Zephyr
+                        </span>
+                    </li>
+                    <li class="section-item">Methodologies:
+                        <span>
+                            Scrum, Kanban
+                        </span>
+                    </li>
+                </ul>
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code Example</h2>
+                <p class="code-description">
+                    Function that receive a list of integers as input, and return the lowest number
+                    in that list, respectively.
+                </p>
+                <pre>
+                    <code>
+    var min = function(list) {
+        var min = list[0];
+        for (i = 0; i < list.length; i++) {
+            if (list[i] < min) {
+                 min = list[i];
+            }
+        }
+        return min;
+    }
+                    </code>
+                </pre>
             </section>
             <section class="section" id="experience">
                 <h2 class="section-title">Work Experience</h2>
+                <ul class="section-list-experience">
+                    <li class="section-item">QA Automation Engineer
+                        <ul>
+                            <li>
+                                Nov 2021 - <b>Present</b>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="section-item">QA Engineer</li>
+                    <ul>
+                        <li>
+                            Aug 2020 - Feb 2022
+                        </li>
+                    </ul>
+                    <li class="section-item">Search Engine Evaluator</li>
+                    <ul>
+                        <li>
+                            Jun 2019 - Oct 2020
+                        </li>
+                    </ul>
+                </ul>
             </section>
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
+                <ul class="section-list-education">
+                    <li class="section-item">Higher:
+                        <span>
+                            Brest State A.S. Pushkin University - Civil Law
+                        </span>
+                    </li>
+                    <li class="section-item">Courses:
+                        <ul>
+                            <li>IT Academy - Software Testing</li>
+                            <li>ISsoft Solutions - Manual Testing</li>
+                            <li>ISsoft Solutions - Java for QA Automation</li>
+                            <li>ISsoft Solutions - Selenium WebDriver</li>
+                        </ul>
+                    </li>
+                </ul>
             </section>
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
+                <ul class="section-list-projects">
+                    <li>
+                        <a href="https://github.com/wilden5/OnlineStoreAQA">Console store application(Java)</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/wilden5/SeleniumAQA-10-20">Selenium framework from scratch(Java)</a>
+                    </li>
+                </ul>
             </section>
             <section class="section" id="languages">
                 <h2 class="section-title">Languages</h2>
+                <p>B2 - Upper-Intermediate</p>
             </section>
         </div>
     </main>
