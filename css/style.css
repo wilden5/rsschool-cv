@@ -14,6 +14,34 @@ html {
     scroll-behavior: smooth;
 }
 
+#summary {
+    font-size: 26px;
+}
+
+#skills {
+    font-size: 26px;
+}
+
+#code {
+    font-size: 26px;
+}
+
+#experience {
+    font-size: 26px;
+}
+
+#education {
+    font-size: 26px;
+}
+
+#projects {
+    font-size: 40px;
+}
+
+#languages {
+    font-size: 26px;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -33,18 +61,29 @@ html {
 }
 
 .contacts-item a {
-    color: #069b71;
-    font-size: 25px;
+    color: #5757a0;
+    font-size: 40px;
     text-decoration: none;
     transition: color 0.5s;
 }
 
-/* .contacts-item {
-    font-size: 25px;
-} */
+.project-item a {
+    color: #5757a0;
+    font-size: 40px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+#contacts {
+    font-size: 40px;
+}
 
 .contacts-item a:hover {
-    color: #ff0059;
+    color: #bd0eed;
+}
+
+.project-item a:hover {
+    color: #bd0eed;
 }
 
 .main-container {
@@ -68,6 +107,7 @@ html {
 
 .section-title {
     font-size: 55px;
+    text-align: left;
     font-weight: 400;
     text-transform: uppercase;
     color: #bd0eed;
@@ -152,13 +192,18 @@ img.rounded-corners {
     border-bottom: 5px solid #5757a0;
 }
 
-/* hr.new5 {
-    border: 10px solid #5757a0;
-    border-radius: 0px;
-} */
-
 .abc::after {
     border-top: 6px solid #8080b9;
+    display: block;
+    position: relative;
+    top: 35px;
+    margin: 0 auto;
+    width: 100%;
+    content: "";
+}
+
+.zxc::before {
+    border-top: 2px dashed #8080b9;
     display: block;
     position: relative;
     top: 35px;
@@ -185,4 +230,74 @@ img.rounded-corners {
 
 .rounded-corners {
     float: right;
+}
+
+.code-example {
+    margin-top: -44px;
+    text-align: left;
+    margin-left: -300px;
+}
+
+.footer {
+    max-width: 1440px;
+    max-height: 100px;
+    margin: 0 auto;
+    width: 100%;
+    color: #4d2323;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #8080b9;
+}
+
+.footer-container {
+    font-size: 50px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #4d2323;
+    transition: color 0.5s;
+}
+
+.footer-container a:hover {
+    color: #2fff00;
+}
+
+.rs {
+    height: auto;
+}
+
+
+
+/* .footer h3 {
+    font-size: 55px;
+    flex-wrap: wrap;
+}
+
+.footer a {
+    font-size: 55px;
+}
+
+.col-2 {
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: -40px;
+}
+
+.col-3 {
+    margin-top: 10px;
+}
+
+.col-3 a {
+    color: #22e018;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.col-3 a:hover {
+    color: #ff00d4;
+} */
+
+.contacts-item {
+    list-style-image: url("../assets/svg/book.png");
 }
