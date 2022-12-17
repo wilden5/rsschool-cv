@@ -18,8 +18,7 @@
         <div class="container">
             <nav class="nav">
                 <ul class="menu">
-                    <li class="navigation-item">
-                        <a href="#contacts" class="navigation-link">Contacts</a>
+                    <li class="navigation-item"><a href="#contacts" class="navigation-link">Contacts</a>
                     </li>
                     <li class="navigation-item">
                         <a href="#summary" class="navigation-link">About Me</a>
@@ -56,24 +55,23 @@
             </section>
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
-                <ul class="section-list">
-                    <li class="contacts-item">Location:
+                <ul class="section-list-contacts">
+                    <li class="contacts-item" id="location">Location:
                         <a href="https://goo.gl/maps/fMxpk6XgpSZ2tHVJ8" title="location">Brest, Belarus</a>
                     </li>
-                    <li class="contacts-item"> Email:
-                        <!-- fix LINK here! -->
-                        <a href="super.wilden5@gmail.com" title="email">super.wilden5@gmail.com</a>
+                    <li class="contacts-item" id="email"> Email:
+                        <a href="mailto: super.wilden5@gmail.com" title="email">super.wilden5@gmail.com</a>
                     </li>
-                    <li class="contacts-item">LinkedIn:
+                    <li class="contacts-item" id="linkedin">LinkedIn:
                         <a href="https://www.linkedin.com/in/denis-ivanchenko/" title="linkedin">Denis Ivanchenko</a>
                     </li>
-                    <li class="contacts-item">Github:
+                    <li class="contacts-item" id="github">Github:
                         <a href="https://github.com/wilden5" title="github">wilden5</a>
                     </li>
-                    <li class="contacts-item">Telegram:
+                    <li class="contacts-item" id="telegram">Telegram:
                         <a href="https://t.me/ShaqDaGod" title="telegram">ShaqDaGod</a>
                     </li>
-                    <li class="contacts-item">Discord:
+                    <li class="contacts-item" id="discord">Discord:
                         <a href="https://discordapp.com/users/216310080335904769" title="telegram">denis#3340</a>
                     </li>
                 </ul>
@@ -85,7 +83,7 @@
                     a front-end developer.
                 </p>
                 <ul class="section-list-summary">
-                    <li class="sublist-traits">My personal traits:
+                    <li class="sublist-traits"><b>My personal traits:</b>
                         <ul>
                             <li>Strong attention to detail</li>
                             <li>High sense of responsibility</li>
@@ -93,7 +91,7 @@
                             <li>In-depth familiarity with search engines and web searches</li>
                         </ul>
                     </li>
-                    <li class="sublist-hobbies">My hobbies:
+                    <li class="sublist-hobbies"><b>My hobbies:</b>
                         <ul>
                             <li>Video-Games</li>
                             <li>eSports</li>
@@ -104,19 +102,16 @@
             <section class="section zxc" id="skills">
                 <h2 class="section-title">Skills</h2>
                 <ul class="section-list-skills">
-                    <li class="section-item">Tools & Technologies:
+                    <li class="section-item"><b>Tools & Technologies:</b>
                         <ul class="tools">
                             <li>Java</li>
-                            <li>JUnit</li>
-                            <li>TestNG</li>
                             <li>Selenium WebDriver</li>
                             <li>Salesforce</li>
-                            <li>Allure</li>
                             <li>Git</li>
-                            <li>Github</li>
+                            <li>GitHub</li>
                         </ul>
                     </li>
-                    <li class="section-item">Methodologies:
+                    <li class="section-item"><b>Methodologies:</b>
                         <ul class="tools">
                             <li>Scrum</li>
                             <li>Kanban</li>
@@ -134,8 +129,8 @@
                     <code>
                         var min = function(list) {
                             var min = list[0];
-                            for (i = 0; i < list.length; i++) {
-                                if (list[i] < min) {
+                            for (i = 0; i &LT; list.length; i++) {
+                                if (list[i] &LT; min) {
                                     min = list[i];
                                 }
                             }
@@ -150,20 +145,22 @@
                     <li class="section-item">QA Automation Engineer
                         <ul>
                             <li>
-                                Nov 2021 - <b>Present</b>
+                                <b>ISsoft Solutions:</b> November 2021 - Present
                             </li>
                         </ul>
                     </li>
-                    <li class="section-item">QA Engineer</li>
+                    <li class="section-item">QA Engineer </li>
                     <ul>
                         <li>
-                            Aug 2020 - Feb 2022
+                            <b>ISsoft Solutions:</b> August 2020 - February 2022
                         </li>
                     </ul>
-                    <li class="section-item">Search Engine Evaluator</li>
+                    <li class="section-item">Search Engine Evaluator </li>
                     <ul>
                         <li>
-                            Jun 2019 - Oct 2020
+                            <b>Yandex LLC:</b> June 2019 - October 2020
+                        </li>
+                        <li>
                         </li>
                     </ul>
                 </ul>
@@ -171,12 +168,12 @@
             <section class="section zxc" id="education">
                 <h2 class="section-title">Education</h2>
                 <ul class="section-list-education">
-                    <li class="section-item">Higher:
-                        <span>
-                            Brest State A.S. Pushkin University - Civil Law
-                        </span>
+                    <li class="section-item"><b>Higher:</b>
+                        <ul>
+                            <li>Brest State A.S. Pushkin University - Civil Law</li>
+                        </ul>
                     </li>
-                    <li class="section-item">Courses:
+                    <li class="section-item"><b>Courses:</b>
                         <ul>
                             <li>IT Academy - Software Testing</li>
                             <li>ISsoft Solutions - Manual Testing</li>
@@ -190,22 +187,30 @@
                 <h2 class="section-title">Projects</h2>
                 <ul class="section-list-projects">
                     <li class="project-item">
-                        <a href="https://github.com/wilden5/OnlineStoreAQA">Console store application(Java)</a>
+                        <a href="https://github.com/wilden5/OnlineStoreAQA"><img
+                                src="./assets/svg/java-coffee-cup-logo.png">Console store
+                            application</a>
                     </li>
                     <li class="project-item">
-                        <a href="https://github.com/wilden5/SeleniumAQA-10-20">Selenium framework from scratch(Java)</a>
+                        <a href="https://github.com/wilden5/SeleniumAQA-10-20"><img
+                                src="./assets/svg/java-coffee-cup-logo.png">Selenium
+                            framework from scratch</a>
                     </li>
+
                 </ul>
             </section>
             <section class="section zxc" id="languages">
                 <h2 class="section-title">Languages</h2>
-                <p>B2 - Upper-Intermediate</p>
+                <p class="languages-p-1">English - Upper-Intermediate
+                    <br />
+                    Russian - Native
+                </p>
             </section>
         </div>
     </main>
     <footer class="footer">
         <div class="container footer-container">
-            <div>@2022
+            <div>&COPY;2022
                 <a href="https://github.com/wilden5">WILDEN5</a>
                 <a href="https://rs.school/js/"><img class="rs" src="https://rs.school/images/rs_school_js.svg"
                         height="90px" width="90px" alt="abc"></a>

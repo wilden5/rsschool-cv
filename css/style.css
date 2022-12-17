@@ -14,32 +14,43 @@ html {
     scroll-behavior: smooth;
 }
 
+#contacts {
+    background-color: aliceblue;
+}
+
 #summary {
-    font-size: 26px;
+    font-size: 34px;
+    background-color: aliceblue;
 }
 
 #skills {
-    font-size: 26px;
+    font-size: 40px;
+    background-color: aliceblue;
 }
 
 #code {
-    font-size: 26px;
+    font-size: 34px;
+    background-color: aliceblue;
 }
 
 #experience {
-    font-size: 26px;
+    font-size: 34px;
+    background-color: aliceblue;
 }
 
 #education {
-    font-size: 26px;
+    font-size: 34px;
+    background-color: aliceblue;
 }
 
 #projects {
     font-size: 40px;
+    background-color: aliceblue;
 }
 
 #languages {
-    font-size: 26px;
+    font-size: 40px;
+    background-color: aliceblue;
 }
 
 .container {
@@ -89,6 +100,7 @@ html {
 .main-container {
     display: flex;
     flex-wrap: wrap;
+    background-color: aliceblue;
 }
 
 .section {
@@ -116,6 +128,7 @@ html {
 #profile {
     font-size: 30px;
     text-transform: uppercase;
+    margin-top: 15px;
 }
 
 /* .expected-position {
@@ -233,6 +246,7 @@ img.rounded-corners {
 }
 
 .code-example {
+    font-size: 25px;
     margin-top: -44px;
     text-align: left;
     margin-left: -300px;
@@ -298,6 +312,75 @@ img.rounded-corners {
     color: #ff00d4;
 } */
 
-.contacts-item {
-    list-style-image: url("../assets/svg/book.png");
+.section-list-contacts {
+    list-style: none;
+    /* remove left padding, it's usually unwanted: */
+    padding: 0;
+}
+
+#location:before {
+    content: url("../assets/svg/location.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#email:before {
+    content: url("../assets/svg/email.png");
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -5px;
+}
+
+#linkedin:before {
+    content: url("../assets/svg/linkedin.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#github:before {
+    content: url("../assets/svg/github.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#telegram:before {
+    content: url("../assets/svg/telegram.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#discord:before {
+    content: url("../assets/svg/discord.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* .sublist-traits:before {
+    content: url("../assets/svg/icons8-attitude-48.png");
+    display: inline-block;
+    vertical-align: middle;
+} */
+
+.section-list-summary li {
+    list-style: none;
+    /* remove left padding, it's usually unwanted: */
+    padding: 0;
+}
+
+#skills li {
+    list-style: none;
+    /* remove left padding, it's usually unwanted: */
+    padding: 0;
+}
+
+.section-list-projects {
+    list-style: none;
+}
+
+#education li {
+    list-style: none;
+}
+
+#experience li {
+    list-style: none;
 }
