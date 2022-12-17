@@ -14,42 +14,19 @@ html {
     scroll-behavior: smooth;
 }
 
-#contacts {
-    background-color: aliceblue;
-}
-
-#summary {
-    font-size: 34px;
-    background-color: aliceblue;
-}
-
-#skills {
-    font-size: 40px;
-    background-color: aliceblue;
-}
-
-#code {
-    font-size: 34px;
-    background-color: aliceblue;
-}
-
-#experience {
-    font-size: 34px;
-    background-color: aliceblue;
-}
-
-#education {
-    font-size: 34px;
-    background-color: aliceblue;
-}
-
-#projects {
-    font-size: 40px;
-    background-color: aliceblue;
-}
-
+#contacts,
+#skills,
+#projects,
 #languages {
     font-size: 40px;
+    background-color: aliceblue;
+}
+
+#summary,
+#code,
+#experience,
+#education {
+    font-size: 34px;
     background-color: aliceblue;
 }
 
@@ -58,46 +35,9 @@ html {
     margin: 0 auto;
 }
 
-/* .navigation-list {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-} */
-
-.navigation-link {
-    padding: 0 20px;
-    line-height: 50px;
-    transition: 0.3s;
-}
-
-.contacts-item a {
-    color: #5757a0;
-    font-size: 40px;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-.project-item a {
-    color: #5757a0;
-    font-size: 40px;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-#contacts {
-    font-size: 40px;
-}
-
-.contacts-item a:hover {
-    color: #bd0eed;
-}
-
-.project-item a:hover {
-    color: #bd0eed;
-}
-
 .main-container {
+    padding-left: 25px;
+    padding-right: 25px;
     display: flex;
     flex-wrap: wrap;
     background-color: aliceblue;
@@ -107,14 +47,39 @@ html {
     width: 50%;
 }
 
-.abc {
-    width: 100%;
-}
-
 @media (max-width: 768px) {
     .section {
         width: 100%;
     }
+}
+
+/* проверь эти значения */
+#profile {
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.navigation-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+}
+
+.contacts-item a,
+.project-item a {
+    color: #5757a0;
+    font-size: 40px;
+    margin-left: 5px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.contacts-item a:hover,
+.project-item a:hover,
+.navigation-item a:hover {
+    color: #bd0eed;
 }
 
 .section-title {
@@ -125,61 +90,16 @@ html {
     color: #bd0eed;
 }
 
-#profile {
-    font-size: 30px;
-    text-transform: uppercase;
-    margin-top: 15px;
-}
-
-/* .expected-position {
-    margin-top: -30px;
-} */
-
-/* Пример стилизации ссылок:
-
-.link {
-  text-decoration: none;
-  color: #829985;
-  transition: color 0.5s;
-}
-
-.link:hover {
-  color: #5d7260;
-} */
-
-/* .section-item::before {
-    content: "";
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    width: 10px;
-    height: 10px;
-    border: 1px solid #829985;
-    border-radius: 50%;
-} */
-
 img.rounded-corners {
     border-radius: 100px;
     margin: auto;
 }
-
-/* .rss {
-    width: 121px;
-    height: 45px;
-    background-image: url("./assets/svg/rss.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
 
 .navigation-item a {
     font-size: 30px;
     text-decoration: none;
     color: #320d2a;
     transition: color 0.5s;
-}
-
-.navigation-item a:hover {
-    color: #ff00d4;
 }
 
 .menu {
@@ -205,7 +125,7 @@ img.rounded-corners {
     border-bottom: 5px solid #5757a0;
 }
 
-.abc::after {
+#profile::after {
     border-top: 6px solid #8080b9;
     display: block;
     position: relative;
@@ -215,13 +135,13 @@ img.rounded-corners {
     content: "";
 }
 
-.zxc::before {
+.sp-1::before {
     border-top: 2px dashed #8080b9;
     display: block;
     position: relative;
     top: 35px;
     margin: 0 auto;
-    width: 100%;
+    width: 99%;
     content: "";
 }
 
@@ -253,7 +173,7 @@ img.rounded-corners {
 }
 
 .footer {
-    max-width: 1440px;
+    max-width: 1490px;
     max-height: 100px;
     margin: 0 auto;
     width: 100%;
@@ -280,37 +200,6 @@ img.rounded-corners {
 .rs {
     height: auto;
 }
-
-
-
-/* .footer h3 {
-    font-size: 55px;
-    flex-wrap: wrap;
-}
-
-.footer a {
-    font-size: 55px;
-}
-
-.col-2 {
-    margin-right: 30px;
-    margin-left: 10px;
-    margin-top: -40px;
-}
-
-.col-3 {
-    margin-top: 10px;
-}
-
-.col-3 a {
-    color: #22e018;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-.col-3 a:hover {
-    color: #ff00d4;
-} */
 
 .section-list-contacts {
     list-style: none;
@@ -355,32 +244,15 @@ img.rounded-corners {
     vertical-align: middle;
 }
 
-/* .sublist-traits:before {
-    content: url("../assets/svg/icons8-attitude-48.png");
-    display: inline-block;
-    vertical-align: middle;
-} */
-
-.section-list-summary li {
-    list-style: none;
-    /* remove left padding, it's usually unwanted: */
-    padding: 0;
-}
-
+.section-list-summary li,
 #skills li {
     list-style: none;
     /* remove left padding, it's usually unwanted: */
     padding: 0;
 }
 
-.section-list-projects {
-    list-style: none;
-}
-
-#education li {
-    list-style: none;
-}
-
+.section-list-projects,
+#education li,
 #experience li {
     list-style: none;
 }
