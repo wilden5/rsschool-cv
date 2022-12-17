@@ -1,0 +1,258 @@
+body {
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    color: #4d2323;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#contacts,
+#skills,
+#projects,
+#languages {
+    font-size: 40px;
+    background-color: aliceblue;
+}
+
+#summary,
+#code,
+#experience,
+#education {
+    font-size: 34px;
+    background-color: aliceblue;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+/* проверь эти значения */
+#profile {
+    width: 100%;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.navigation-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+}
+
+.contacts-item a,
+.project-item a {
+    color: #5757a0;
+    font-size: 40px;
+    margin-left: 5px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.contacts-item a:hover,
+.project-item a:hover,
+.navigation-item a:hover {
+    color: #bd0eed;
+}
+
+.section-title {
+    font-size: 55px;
+    text-align: left;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #bd0eed;
+}
+
+img.rounded-corners {
+    border-radius: 100px;
+    margin: auto;
+}
+
+.navigation-item a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #320d2a;
+    transition: color 0.5s;
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: -5px;
+}
+
+.menu a {
+    font-size: 43px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    color: #5757a0;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #e6e6fa;
+    border-bottom: 5px solid #5757a0;
+}
+
+#profile::after {
+    border-top: 6px solid #8080b9;
+    display: block;
+    position: relative;
+    top: 35px;
+    margin: 0 auto;
+    width: 100%;
+    content: "";
+}
+
+.sp-1::before {
+    border-top: 2px dashed #8080b9;
+    display: block;
+    position: relative;
+    top: 35px;
+    margin: 0 auto;
+    width: 99%;
+    content: "";
+}
+
+.emp-data {
+    font-size: 35px;
+    text-align: right;
+}
+
+.applicant-name {
+    font-size: 80px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.expected-position {
+    font-size: 80px;
+    margin: 0 auto;
+}
+
+.rounded-corners {
+    float: right;
+}
+
+.code-example {
+    font-size: 25px;
+    margin-top: -44px;
+    text-align: left;
+    margin-left: -300px;
+}
+
+.footer {
+    max-width: 1490px;
+    max-height: 100px;
+    margin: 0 auto;
+    width: 100%;
+    color: #4d2323;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #8080b9;
+}
+
+.footer-container {
+    font-size: 50px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #4d2323;
+    transition: color 0.5s;
+}
+
+.footer-container a:hover {
+    color: #2fff00;
+}
+
+.rs {
+    height: auto;
+}
+
+.section-list-contacts {
+    list-style: none;
+    /* remove left padding, it's usually unwanted: */
+    padding: 0;
+}
+
+#location:before {
+    content: url("../assets/svg/location.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#email:before {
+    content: url("../assets/svg/email.png");
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -5px;
+}
+
+#linkedin:before {
+    content: url("../assets/svg/linkedin.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#github:before {
+    content: url("../assets/svg/github.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#telegram:before {
+    content: url("../assets/svg/telegram.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#discord:before {
+    content: url("../assets/svg/discord.png");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section-list-summary li,
+#skills li {
+    list-style: none;
+    /* remove left padding, it's usually unwanted: */
+    padding: 0;
+}
+
+.section-list-projects,
+#education li,
+#experience li {
+    list-style: none;
+}
