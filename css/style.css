@@ -167,9 +167,12 @@ img.rounded-corners {
 
 .code-example {
     font-size: 25px;
-    margin-top: -44px;
-    text-align: left;
-    margin-left: -300px;
+    border-radius: 3px;
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+    overflow-y: hidden;
+
 }
 
 .footer {
