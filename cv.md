@@ -47,3 +47,18 @@ private handleClearCartButtonState(): void {
   *Aug 2020 - Feb 2022*
 * **Search Engine Evaluator**\
   *Jun 2019 - Oct 2020* 
+
+## Education:
+* **Higher**:
+    * Brest State A.S. Pushkin University - Faculty of Law
+* **Courses**:
+    * IT Academy - Software Testing
+    * ISsoft Solutions - Manual Testing
+    * ISsoft Solutions - Java for QA Automation
+    * ISsoft Solutions - Selenium WebDriver (Java)
+    * RS School - JS/FE Pre-School 2022Q4
+    * RS School - JavaScript/Front-End 2023Q1
+    * RS School - Angular 2023Q4
+
+## Languages:
+* English - **B2**
