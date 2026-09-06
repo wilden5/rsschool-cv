@@ -25,3 +25,25 @@
 
 **Methodologies:**
 * Scrum, Kanban
+
+## Code example:
+>**RS School JSFE2023Q1 Final Task** \
+*Method for handling logout functionality.*
+```
+private handleClearCartButtonState(): void {
+  const itemsNumber = this.CONTAINER.querySelectorAll('.cart-item').length;
+  const clearCartButton = this.CONTAINER.querySelector('.clear-cart') as HTMLButtonElement;
+  if (itemsNumber > 0) {
+      clearCartButton.disabled = false;
+      clearCartButton.addEventListener('click', this.handleCartCleanProcess);
+  }
+}
+```
+
+## Work experience:
+* **QA Automation Engineer**\
+  *Nov 2021 - Present*
+* **QA Engineer**\
+  *Aug 2020 - Feb 2022*
+* **Search Engine Evaluator**\
+  *Jun 2019 - Oct 2020* 
