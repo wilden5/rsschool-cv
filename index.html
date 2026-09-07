@@ -25,7 +25,7 @@
     <section id="contact-information">
         <h2>Contact Information</h2>
         <ul>
-            <li><a href="mailto:super.wilden5@gmail.com"></a>super.wilden5@gmail.com</li>
+            <li><a href="mailto:super.wilden5@gmail.com">super.wilden5@gmail.com</a></li>
             <li><a href="https://t.me/ShaqDaGod">Telegram</a></li>
             <li><a href="https://www.linkedin.com/in/denis-ivanchenko/">LinkedIn</a></li>
             <li><a href="https://github.com/wilden5">GitHub</a></li>
@@ -33,6 +33,25 @@
     </section>
     <section id="about-me">
         <h2>About Me</h2>
+        <p>I am currently working as a QA Automation Engineer. My goal is to develop myself technically and become a front-end developer.</p>
+        <ul>
+            <li>
+                <strong>Personal traits</strong>
+                <ul>
+                    <li>Strong attention to detail</li>
+                    <li>High sense of responsibility</li>
+                    <li>Positive attitude to learning new tools and technologies</li>
+                    <li>In-depth familiarity with search engines and web searches</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Hobbies</strong>
+                <ul>
+                    <li>Video games</li>
+                    <li>eSports</li>
+                </ul>
+            </li>
+        </ul>
     </section>
     <section id="skills">
         <h2>Skills</h2>
@@ -63,6 +82,19 @@
     </section>
     <section id="code-example">
         <h2>Code Example</h2>
+        <p><em>Method for handling Clear Cart functionality.</em></p>
+        <pre>
+            <code>
+private handleClearCartButtonState(): void {
+    const itemsNumber = this.CONTAINER.querySelectorAll('.cart-item').length;
+    const clearCartButton = this.CONTAINER.querySelector('.clear-cart') as HTMLButtonElement;
+    if (itemsNumber > 0) {
+        clearCartButton.disabled = false;
+        clearCartButton.addEventListener('click', this.handleCartCleanProcess);
+    }
+}
+            </code>
+        </pre>
     </section>
     <section id="work-experience">
         <h2>Work experience</h2>
