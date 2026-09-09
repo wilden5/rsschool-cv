@@ -140,4 +140,40 @@ li {
     margin-bottom: 10px;
 }
 
+.contact-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-size: 1.1rem;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+.about-description {
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+.about-list strong {
+    display: block;
+    margin-top: 20px;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.skills-list li strong {
+    display: block;
+    margin-top: 20px;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
 }
