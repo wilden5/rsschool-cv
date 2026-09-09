@@ -176,4 +176,34 @@ li {
     font-size: 1.1rem;
 }
 
+.code-description {
+    margin-bottom: 15px;
+}
+
+.code-block {
+    background: #2d3436;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.code-content {
+    color: #fab1a0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+.work-list li, .education-list li {
+    margin-bottom: 25px;
+}
+
+.work-list li strong, .education-list li strong {
+    display: block;
+    font-size: 1.2rem;
+}
+
+.language-level {
+    color: #00b894;
+    font-weight: 700;
 }
