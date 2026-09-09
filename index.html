@@ -1,13 +1,167 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CV Denis Ivanchenko</title>
+    <link rel="icon" href="assets/icons/favicon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<header class="main-header">
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="#contact-information">Contact Information</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code-example">Code Example</a></li>
+            <li><a href="#work-experience">Work experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="main-content">
+    <section id="personal-information" class="section-personal">
+        <img src="assets/images/myself.jpg" alt="myself-pic" class="profile-img">
+        <h1 class="name">Denis Ivanchenko</h1>
+        <h2 class="title">Future Frontend Developer</h2>
+    </section>
+    <section id="contact-information" class="section-contact">
+        <h2 class="section-title">Contact Information</h2>
+        <ul class="contact-list">
+            <li><a href="mailto:super.wilden5@gmail.com">super.wilden5@gmail.com</a></li>
+            <li><a href="https://t.me/ShaqDaGod">Telegram</a></li>
+            <li><a href="https://www.linkedin.com/in/denis-ivanchenko/">LinkedIn</a></li>
+            <li><a href="https://github.com/wilden5">GitHub</a></li>
+        </ul>
+    </section>
+    <section id="about-me" class="section-about">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-description">I am currently working as a QA Automation Engineer. My goal is to develop myself technically and become a front-end developer.</p>
+        <ul class="about-list">
+            <li>
+                <strong>Personal traits</strong>
+                <ul>
+                    <li>Strong attention to detail</li>
+                    <li>High sense of responsibility</li>
+                    <li>Positive attitude to learning new tools and technologies</li>
+                    <li>In-depth familiarity with search engines and web searches</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Hobbies</strong>
+                <ul>
+                    <li>Video games</li>
+                    <li>eSports</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="skills" class="section-skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+            <li>
+                <strong>Tools &amp; Technologies:</strong>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Angular</li>
+                    <li>RxJS</li>
+                    <li>NgRx</li>
+                    <li>Git</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Jest</li>
+                    <li>Postman</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Methodologies:</strong>
+                <ul>
+                    <li>Scrum</li>
+                    <li>Kanban</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="code-example" class="section-code">
+        <h2 class="section-title">Code Example</h2>
+        <p class="code-description"><em class="code-italic">Method for handling Clear Cart functionality.</em></p>
+        <pre class="code-block">
+            <code class="code-content">
+private handleClearCartButtonState(): void {
+    const itemsNumber = this.CONTAINER.querySelectorAll('.cart-item').length;
+    const clearCartButton = this.CONTAINER.querySelector('.clear-cart') as HTMLButtonElement;
+    if (itemsNumber > 0) {
+        clearCartButton.disabled = false;
+        clearCartButton.addEventListener('click', this.handleCartCleanProcess);
+    }
+}
+            </code>
+        </pre>
+    </section>
+    <section id="work-experience" class="section-work">
+        <h2 class="section-title">Work experience</h2>
+        <ul class="work-list">
+            <li>
+                <strong>QA Automation Engineer</strong>
+                <ul>
+                    <li>ISsoft Solutions: November 2021 - Present</li>
+                </ul>
+            </li>
+            <li>
+                <strong>QA Engineer</strong>
+                <ul>
+                    <li>ISsoft Solutions: August 2020 - February 2022</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Search Engine Evaluator</strong>
+                <ul>
+                    <li>Yandex LLC: June 2019 - October 2020</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="education" class="section-education">
+        <h2 class="section-title">Education</h2>
+        <ul class="education-list">
+            <li>
+                <strong>Higher</strong>
+                <ul>
+                    <li>Brest State A.S. Pushkin University - Faculty of Law</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Courses</strong>
+                <ul>
+                    <li>IT Academy - Software Testing</li>
+                    <li>ISsoft Solutions - Manual Testing</li>
+                    <li>ISsoft Solutions - Java for QA Automation</li>
+                    <li>ISsoft Solutions - Selenium WebDriver (Java)</li>
+                    <li>RS School - JS/FE Pre-School 2022Q4</li>
+                    <li>RS School - JavaScript/Front-End 2023Q1</li>
+                    <li>RS School - Angular 2023Q4</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="languages" class="section-languages">
+        <h2 class="section-title">Languages</h2>
+        <p class="languages-description">English - <strong class="language-level">B2</strong></p>
+    </section>
+</main>
+<footer class="main-footer">
+    <div class="footer-content">
+        &copy;2026
+        <a href="https://github.com/wilden5" class="footer-link">WILDEN5</a>
+        <a href="https://rs.school/courses/javascript" class="footer-link">
+            <img src="https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg" alt="rss-logo" class="footer-logo">
+        </a>
+    </div>
+</footer>
 </body>
 </html>
